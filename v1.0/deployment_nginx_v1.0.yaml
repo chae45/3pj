@@ -53,9 +53,8 @@ spec:
                     values:
                       - index
               topologyKey: "kubernetes.io/hostname"
-
       containers:
-        - image: 992382441622.dkr.ecr.ap-northeast-2.amazonaws.com/nginx-index:v1.0
+        - image: 992382441622.dkr.ecr.ap-northeast-2.amazonaws.com/nginx-index:v2.0
           name: index
           ports:
             - containerPort: 80
